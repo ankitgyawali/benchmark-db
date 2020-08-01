@@ -21,9 +21,13 @@ script_name=$1
 script_name_tag=$2
 iteration=$3
 
-rm $script_name_tag
+if [ ! -f $script_name_tag ]; then
+    echo $script_name_tag >> $script_name_tag
+fi
 
-echo -e "${OK} Benchmarking:  $script_name script for $iteration iterations."
+
+echo -e "\n----"
+echo -e "${OK} BENCHMARKING:  $script_name script for $iteration iterations."
 echo -e "${OK} Output will be stored at $script_name_tag."
 
 for i  in $(seq "$iteration");

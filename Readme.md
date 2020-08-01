@@ -21,3 +21,20 @@ Sample usage looks like so:  ./benchmark.sh 011-setup-mongo.sh mongo_setup.csv 2
 ## Results
 
 Results of the project will be submitted inside the "docs" folder.
+
+
+## Init
+sudo mkdir /var/run/mysqld && sudo chmod -R 777 /var/run/mysqld/
+sudo /usr/sbin/mysqld --user=root &
+mysql -u root -p$MYSQL_PWD
+
+
+
+### Complete Run
+
+
+## Dependencies
+
+jq
+mongo
+mysql

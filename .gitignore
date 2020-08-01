@@ -1,1 +1,8 @@
-*.csv
+# Ignoring the next two files because of their bulky size
+# They can be recreated from 020-1-init-sql-cluster-queries.py by referencing the path for bestbuy products.json export
+90-ddl.sql
+91-dml.sql
+
+# Ignoring helper csv outputs
+*MONGO*.csv
+*MYSQL*.csv
