@@ -1,0 +1,11 @@
+## Init
+sudo mkdir /var/run/mysqld && sudo chmod -R 777 /var/run/mysqld/
+sudo /usr/sbin/mysqld --user=root &
+mysql -u root -p$MYSQL_PWD
+
+
+## Dependencies
+
+jq
+mongo
+mysql
