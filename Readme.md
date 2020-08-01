@@ -10,6 +10,12 @@ Use cases benchmarked on this iteration:
     - Catalog Search Query - 015*.sh & 025*.sh
     - Complete catalog teardown - 016*.sh & 026*.sh
 
+## Results
+
+Graphs will be available [here](https://github.com/ankitgyawali/benchmark-db/blob/master/Graph.md).
+
+Reports if committed will be placed on `/docs` folder as pdf format.
+
 ### 0000-RUN-ALL.sh
 
 Run all performs a complete test between mysql & mongodb by utilizing 0001-BENCHMARK.sh across configured iterations of setting up & tearing down databases with use cases benchmarked in between
