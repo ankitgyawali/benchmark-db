@@ -6,3 +6,6 @@
 # Ignoring helper csv outputs
 *MONGO*.csv
 *MYSQL*.csv
+
+.Rhistory
+.RData

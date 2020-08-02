@@ -2,7 +2,9 @@
 
 This mini project aims to benchmark a bunch of use-case specific queries for MySQL & MongoDB. The goal is to produce data that allows us to analyze which database is better in various E-Commerce scenarios.
 
+
 Use cases benchmarked on this iteration:
+
     - Complete catalog ingest - 011*.sh & 021*.sh
     - Single Product Fetch - 012*.sh & 022*.sh
     - Multiple Product Fetches - 013*.sh & 023*.sh
